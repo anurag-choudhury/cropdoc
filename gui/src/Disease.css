@@ -1,0 +1,16 @@
+.diseases {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    width: 80%;
+    /* height: 40%; */
+    margin: 30px auto;
+}
+
+.list {
+    padding: 2em;
+    border-color: #fff;
+    border: medium dashed green;
+    height: 80%;
+}

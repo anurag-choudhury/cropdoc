@@ -1,0 +1,46 @@
+
+  .navbar{
+    top: 20%;
+    left: 0;
+    display: flex;
+    position: fixed;
+    width: 20%;
+    justify-content: space-between;
+
+  }
+
+  .logo {
+    background-color: rgb(24, 24, 24);
+    display: block;
+    height: 2em; 
+    padding: 2em;
+    will-change: filter;
+    transition: filter 250ms;
+    padding-bottom: 3.5em;
+    width: 40%;
+    transition: transform 250ms;
+  }
+  .logo:hover {
+    background-color: rgb(99, 211, 101);
+    transform: translateY(-10px);
+  }
+  
+  img{
+    padding: 0em;
+  }
+
+  .logotext{
+    display: flex;
+    position: fixed;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(99, 211, 101);
+    background-color: rgb(24, 24, 24);
+    top: 0;
+    font-size: 3.2em;
+    margin: 0em;
+    width: 18%;
+    height: 10%;
+    justify-content: center;
+    border-radius: 2px 2px 15px 15px;
+  }

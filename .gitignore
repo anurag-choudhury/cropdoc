@@ -1,0 +1,4 @@
+myenv
+model/model.safetensors
+gui/src/data/*.jpg
+gui/src/data/diseaseList.json

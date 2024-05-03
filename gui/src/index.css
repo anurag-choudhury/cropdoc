@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 100;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-color: rgb(106, 228, 114) rgb(0, 0, 0);
+  scrollbar-width: thin;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 0.1;
+  font-weight: 100;
+}
+
+.container {
+  padding: 0px;
+  margin-top: 12%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}

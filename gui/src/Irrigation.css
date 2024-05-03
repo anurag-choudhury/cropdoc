@@ -1,0 +1,16 @@
+.calendar-month_header_title{
+  align-items: center;
+}
+
+.containerIrr{
+  padding: 0px;
+  margin-top: 8em;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.calendar{
+  width: 45%;
+  height: 100vh;
+}
